@@ -32,17 +32,7 @@ export default function HomePage({ currentUser, setCurrentUser }) {
   return (
     <>
       <Navbar currentUser={currentUser} setCurrentUser={setCurrentUser} />
-      <video
-        preload="auto"
-        autoPlay
-        muted
-        loop
-        id="background-video"
-        playsInline
-        controls={false}
-      >
-        <source src="/images/Glitch.mp4" type="video/mp4" />
-      </video>
+      <img id="background" src="/images/background.png" alt="background" />
 
       <div className="top-section">
         {allPosts.length > 1 && showAllMessages && (
