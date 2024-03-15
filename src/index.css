@@ -297,6 +297,17 @@ footer a {
   z-index: -1;
 }
 
+.not-found {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 40rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
 .message-image {
   max-width: 15%;
   border-radius: 4rem;
@@ -583,11 +594,11 @@ footer a {
   border-bottom: 1px solid #fcee09;
   border-top: 1px solid #1bfd9c;
   padding: 2.5rem;
-  line-height: 1.6rem;
+  line-height: 1.8rem;
 }
 
 .about-image {
-  max-width: 45%;
+  max-width: 40%;
   height: auto;
   border-radius: 0.4rem;
   box-shadow: 1.3rem 1.1rem 1.2rem rgba(164, 68, 157, 0.37);
