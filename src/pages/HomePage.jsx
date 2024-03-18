@@ -32,7 +32,7 @@ export default function HomePage({ currentUser, setCurrentUser }) {
   return (
     <>
       <Navbar currentUser={currentUser} setCurrentUser={setCurrentUser} />
-      <img id="background" src="/images/background.png" alt="background" />
+      <img id="background" src="/images/background.webp" alt="background" />
 
       <div className="top-section">
         {allPosts.length > 1 && showAllMessages && (

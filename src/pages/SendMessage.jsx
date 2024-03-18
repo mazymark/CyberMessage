@@ -107,46 +107,46 @@ export default function SendMessage({ currentUser, setCurrentUser }) {
             />
             <img
               style={{
-                border: icon === "images/icon2.jpg" ? "1px solid #1bfd9c" : "",
+                border: icon === "images/icon2.webp" ? "1px solid #1bfd9c" : "",
               }}
-              onClick={() => handleSelectedIcon("images/icon2.jpg")}
+              onClick={() => handleSelectedIcon("images/icon2.webp")}
               className="icon"
-              src="images/icon2.jpg"
+              src="images/icon2.webp"
               alt="icon"
             />
             <img
               style={{
-                border: icon === "images/icon3.jpg" ? "1px solid #1bfd9c" : "",
+                border: icon === "images/icon3.webp" ? "1px solid #1bfd9c" : "",
               }}
-              onClick={() => handleSelectedIcon("images/icon3.jpg")}
+              onClick={() => handleSelectedIcon("images/icon3.webp")}
               className="icon"
-              src="images/icon3.jpg"
+              src="images/icon3.webp"
               alt="icon"
             />
             <img
               style={{
-                border: icon === "images/icon4.jpg" ? "1px solid #1bfd9c" : "",
+                border: icon === "images/icon4.webp" ? "1px solid #1bfd9c" : "",
               }}
-              onClick={() => handleSelectedIcon("images/icon4.jpg")}
+              onClick={() => handleSelectedIcon("images/icon4.webp")}
               className="icon"
-              src="images/icon4.jpg"
+              src="images/icon4.webp"
               alt="icon"
             />
             <img
               style={{
-                border: icon === "images/icon5.jpg" ? "1px solid #1bfd9c" : "",
+                border: icon === "images/icon5.webp" ? "1px solid #1bfd9c" : "",
               }}
-              onClick={() => handleSelectedIcon("images/icon5.jpg")}
+              onClick={() => handleSelectedIcon("images/icon5.webp")}
               className="icon"
-              src="images/icon5.jpg"
+              src="images/icon5.webp"
               alt="icon"
             />
             <img
               style={{
-                border: icon === "images/icon6.jpg" ? "1px solid #1bfd9c" : "",
+                border: icon === "images/icon6.webp" ? "1px solid #1bfd9c" : "",
               }}
-              onClick={() => handleSelectedIcon("images/icon6.jpg")}
-              src="images/icon6.jpg"
+              onClick={() => handleSelectedIcon("images/icon6.webp")}
+              src="images/icon6.webp"
               alt="icon"
               className="icon"
             />
