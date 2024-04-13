@@ -213,6 +213,7 @@ header {
 
 .send-button {
   width: 100%;
+  cursor: pointer;
 }
 
 .not-show-messages-button {
@@ -436,6 +437,7 @@ footer a {
   width: 100%;
   top: 0;
   left: 0;
+  background-color: #80efccec;
   backdrop-filter: blur(1.5rem);
   z-index: 1000;
 }
@@ -467,6 +469,7 @@ footer a {
   border-radius: 5px;
   border: none;
   margin-bottom: 1rem;
+  outline: none;
 }
 
 .update-message-button {
@@ -479,6 +482,7 @@ footer a {
   overflow: hidden;
   transition: all 0.3s;
   line-height: 1.4em;
+  cursor: pointer;
   border: 2px solid #1bfd9c;
   background: linear-gradient(
     to right,
@@ -505,6 +509,7 @@ footer a {
   width: 4rem;
   border-radius: 2rem;
   margin-bottom: 1.6rem;
+  cursor: pointer;
   transition: 0.5s all;
 }
 
@@ -547,6 +552,7 @@ footer a {
 .update-icon,
 .delete-icon {
   font-size: 23px;
+  cursor: pointer;
 }
 
 .update-icon:hover,
@@ -560,6 +566,7 @@ footer a {
   right: 1.1rem;
   top: 1rem;
   position: absolute;
+  cursor: pointer;
 }
 
 .select-icon {
